@@ -13,10 +13,10 @@ returns `Pong!` if the server is up.
 ### /stats
 returns general coin stat, including difficulty, coin supply and transactions.  
 `{  
-    "result": {<br>
+    "result": {
         "chain": { "difficulty": 516769783.12022805,  
         "lastBlockHash": "0x00000007f8408de77099debbb1f372731e8f5c203658a035497df57860dc1d88",  
-        "length": 3202, "target": "0x84fa991e061b180000000000000000000000000000000000000000000" },  
+        "length": 3202, "target": "0x84fa991e061b180000000000000000000000000000000000000000000" },
         "coin": { "holders": 52, "supply": 160160, "transactions": 3317 }  
     },  
     "success": true  
@@ -59,8 +59,8 @@ Returns childs of a transaction
 Send a raw, signed, hex encoded transaction in json format, for the node to process.
 
 ### /send/buildTransaction
-BROKEN! Build an sign a transaction. Requires following GET parameter:  
-`privkey -private key  
+BROKEN! Build an sign a transaction. Requires following GET parameters:  
+privkey -private key  
 from  
 to  
 value - amount`  
