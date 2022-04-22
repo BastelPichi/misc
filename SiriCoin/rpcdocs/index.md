@@ -13,7 +13,7 @@ returns `Pong!` if the server is up.
 ### /stats
 returns general coin stat, including difficulty, coin supply and transactions.  
 `{  
-    "result": {  
+    "result": {<br>
         "chain": { "difficulty": 516769783.12022805,  
         "lastBlockHash": "0x00000007f8408de77099debbb1f372731e8f5c203658a035497df57860dc1d88",  
         "length": 3202, "target": "0x84fa991e061b180000000000000000000000000000000000000000000" },  
